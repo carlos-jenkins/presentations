@@ -62,7 +62,7 @@ Simple aplicación Python WSGI para manejar webhooks de GitHub.
 
 Requiere ser instalada en un servidor web con IP pública. Esta aplicación
 permite ejecutar scripts en el directorio ``hooks`` utilizando el siguiente
-order:
+orden:
 
 ::
 
