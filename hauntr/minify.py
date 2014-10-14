@@ -20,13 +20,18 @@
 Custom CSS minifier using webassets library.
 """
 
+from os.path import dirname, abspath, join
 from jsmin import jsmin
 
 IMPORTS = 'imports.css'
 
 INPUT = [
-    's5-core.css', 'framing.css', 'pretty.css',
-    'docutils.css', 'hauntr.css', 'pygments.css'
+    's5-core.css',
+    'framing.css',
+    'pretty.css',
+    'docutils.css',
+    'hauntr.css',
+    'pygments.css',
 ]
 
 OUTPUT = 'slides.css'
@@ -36,22 +41,23 @@ def main():
     """
     Main minifying function.
     """
+    path = lambda p: join(abspath(dirname(__file__)), p)
     minified = []
 
     # Prepend imports
-    with open(IMPORTS) as fd:
+    with open(path(IMPORTS)) as fd:
         minified.append(fd.read())
 
     # Read inputs
     for css in INPUT:
-        with open(css) as fd:
+        with open(path(css)) as fd:
             minified.append(jsmin(fd.read()))
 
     # Write output
-    with open(OUTPUT, 'w') as fd:
+    with open(path(OUTPUT), 'w') as fd:
         fd.write('\n'.join(minified))
 
-    print('[DONE]')
+    print(path(OUTPUT))
 
 
 if __name__ == '__main__':
