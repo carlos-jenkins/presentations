@@ -1,0 +1,8 @@
+Pending:
+
+- Create blog page for presentations.
+- Create auto deploy for presentations.
+- Image resize.
+- Fix code resize.
+- Support for Font Awesome.
+
