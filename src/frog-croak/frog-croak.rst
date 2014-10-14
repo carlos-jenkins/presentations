@@ -48,7 +48,7 @@ Para un demo en vivo visitar: http://speed.jenkins.co.cr/
 Utilización del visualizador
 ============================
 
-.. image:: screenshot.png
+.. image:: images/screenshot.png
 
 
 Instalación del visualizador
