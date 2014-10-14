@@ -35,8 +35,7 @@ Sitio web para hosteo y gestión de proyectos de código abierto utilizando
 el sistema de control de versiones Git. Es utilizado por mucho proyectos
 de Software Libre, incluyendo el kernel Linux.
 
-.. image:: github.png
-   :width: 200px
+.. image:: images/github.png
 
 
 Acerca de GitHub WebHooks

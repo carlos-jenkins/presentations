@@ -178,9 +178,9 @@ Mecanismo básico de extensibilidad.
 
 ::
 
-   .. image:: image.jpg
+   .. image:: images/image.jpg
 
-.. image:: image.jpg
+.. image:: images/image.jpg
 
 
 Comparación con Markdown
