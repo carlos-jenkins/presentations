@@ -1,6 +1,10 @@
 body {
-    font-family: FiraSans, serif;
+    font-family: "Fira Sans", Sans-serif;
     color: #3A4145;
+}
+
+code, kbd, pre, samp, tt {
+    font-family: "Fira Mono", Inconsolata, monospace, sans-serif;
 }
 
 /* Fix tables */
