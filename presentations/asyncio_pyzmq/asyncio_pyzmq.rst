@@ -79,6 +79,24 @@ Comparación con otros modelos de concurrencia
 .. _CFS: https://en.wikipedia.org/wiki/Completely_Fair_Scheduler
 
 
+Threading
+=========
+
+.. image:: images/threading.svg
+
+
+Multiprocessing
+===============
+
+.. image:: images/multiprocessing.svg
+
+
+Async
+=====
+
+.. image:: images/async.svg
+
+
 HTTP con AsyncIO
 ================
 
@@ -342,6 +360,8 @@ Nuestros resultados:
 ===========
 
 Muchas gracias.
+
+https://carlos.jenkins.co.cr/presentations/asyncio_pyzmq
 
 :Autor: Carlos Jenkins, KuraLabs S.R.L
 :Email: carlos.jenkins@kuralabs.io
