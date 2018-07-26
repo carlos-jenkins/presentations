@@ -33,7 +33,7 @@ Sistema de Control de Versiones
 Acerca de Git
 =============
 
-http://git-scm.com/
+https://git-scm.com/
 
 Sistema de control de versiones *distribuído* diseñado por Linus Torvals.
 Inicia el 7 de Abril de 2005. Utilizado en todo el mundo, en proyectos

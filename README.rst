@@ -6,7 +6,7 @@ Web presentations created in `reST`_ using `rst2s5`_.
 
 This repository is auto-deployed to:
 
-    http://carlos.jenkins.co.cr/presentations
+    https://carlos.jenkins.co.cr/presentations
 
 .. _reST: http://docutils.sourceforge.net/docs/user/rst/quickref.html
 .. _rst2s5: http://docutils.sourceforge.net/docs/user/slide-shows.html
@@ -17,8 +17,8 @@ Build
 
 ::
 
-   sudo pip install -r requirements.txt
-   make
+   sudo pip3 install tox
+   tox
 
 
 License
@@ -26,7 +26,7 @@ License
 
 ::
 
-   Copyright (C) 2014 Carlos Jenkins <carlos@jenkins.co.cr>
+   Copyright (C) 2014-2018 Carlos Jenkins <carlos@jenkins.co.cr>
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
