@@ -6,6 +6,44 @@ Presentations
    :backlinks: none
 
 
+Python AsyncIO and PyZMQ
+========================
+
+`/AsyncIO and PyZMQ <asyncio_pyzmq/>`__
+
+:Language: ``[ES]``
+:Date: Jul 26, 2018
+:Activity: Python CR Meetups, Costa Rica.
+
+Web presentation about the Python built-in asynchronous framework `AsyncIO`_.
+We compare traditional threading and multiprocessing concurrency models, event
+loops and a few frameworks that will help you building RESTful APIs fast and
+securely:
+
+- `AsyncIO`_: Asynchronous I/O, event loop, coroutines and tasks.
+- `AIOHTTP`_: Asynchronous HTTP framework for Python.
+- `Cerberus`_: Awesome schema validation framework.
+- `Motor`_: Asynchronous Python driver for `MongoDB`_.
+- `AIOMySQL`_: Asynchronous Python driver for `MySQL`_.
+- `AioInflux`_: Asynchronous Python driver for `InfluxDB`_.
+- `PyZMQ`_: PyZMQ is the Python bindings for ØMQ, a framework for multiprocess
+  communication.
+- `Supervisor`_: System that allows its users to control a number of processes
+  on UNIX-like operating systems.
+
+.. _AsyncIO: https://docs.python.org/3/library/asyncio.html
+.. _AIOHTTP: https://aiohttp.readthedocs.io/
+.. _Cerberus: http://docs.python-cerberus.org/
+.. _Motor: https://motor.readthedocs.io/
+.. _MongoDB: https://www.mongodb.com/
+.. _AIOMySQL: http://aiomysql.readthedocs.io/
+.. _MySQL: https://www.mysql.com/
+.. _AioInflux: https://github.com/plugaai/aioinflux
+.. _InfluxDB: https://www.influxdata.com/
+.. _PyZMQ: https://pyzmq.readthedocs.io/
+.. _Supervisor: http://supervisord.org/
+
+
 Git
 ===
 
