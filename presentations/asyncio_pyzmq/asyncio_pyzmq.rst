@@ -123,7 +123,7 @@ HTTP con AsyncIO (2)
 .. code:: python3
 
    async def handler_name(request):
-       web.json_response({'hello': 'world'})
+       return web.json_response({'hello': 'world'})
 
 
 Bonus: Validación de Schema

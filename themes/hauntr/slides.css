@@ -1,5 +1,5 @@
 /* Use FiraSans on the document */
-@import url(http://fonts.googleapis.com/css?family=Fira+Sans);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans);
 div#header,div#footer,div#controls,div.slide{position:absolute;}
 html>body div#header,html>body div#footer,html>body div#controls,html>body div.slide{position:fixed;}.handout{display:none;}.layout{display:block;}.slide,.hideme,.incremental{visibility:hidden;}#slide0{visibility:visible;}
 div#header,div#footer,.slide{width:100%;top:0;left:0;}
