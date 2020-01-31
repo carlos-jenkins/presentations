@@ -6,6 +6,23 @@ Presentations
    :backlinks: none
 
 
+Python Packaging
+================
+
+`/Python Packaging <packaging/>`__
+
+:Language: ``[ES]``
+:Date: Jan 30, 2020
+:Activity: PyNights, Costa Rica.
+
+Web presentation about packaging and distributing Python code.
+Project like `setuptools`_, `Twine`_ and `PyPI`_ are discussed.
+
+.. _setuptools: https://setuptools.readthedocs.io/
+.. _Twine: https://pypi.org/project/twine/
+.. _PyPI: https://pypi.org/
+
+
 Python AsyncIO and PyZMQ
 ========================
 
